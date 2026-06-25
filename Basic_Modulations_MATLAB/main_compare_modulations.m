@@ -5,9 +5,9 @@ addpath(genpath(pwd));
 
 % Creates a configuration structure (cfg)
 cfg.seed          = 42;
-cfg.numBits       = 2e6;      % keep divisible by 2, 3, 4, 6 if possible
-cfg.EbNoVec       = 0:1:15;
-cfg.plotEbNo      = 6;        % noisy constellation snapshot
+cfg.numBits       = 5e6;      % keep divisible by 2, 3, 4, 6 if possible
+cfg.EbNoVec       = 0:1:20;
+cfg.plotEbNo      = 12;        % noisy constellation snapshot
 cfg.showClean     = true;
 cfg.showNoisy     = true;
 
